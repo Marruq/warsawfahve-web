@@ -7,14 +7,7 @@ import { getFirestore, collection, getDocs } from "firebase/firestore";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyCaUkPx1uWLwETpgKykilNJfpresuwYJn0",
-  authDomain: "warsaw-fahve.firebaseapp.com",
-  projectId: "warsaw-fahve",
-  storageBucket: "warsaw-fahve.appspot.com",
-  messagingSenderId: "159362946865",
-  appId: "1:159362946865:web:8b71af690897772c374210"
-};
+
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
